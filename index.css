@@ -1,0 +1,32 @@
+input{
+    height: 50px;
+    width: 80px;
+    border:1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    font-size:30px;
+}
+
+div{
+    margin-left: 40%;
+    margin-top: 30vh;
+}
+
+
+@media (max-width: 576px){
+    input{
+        height: 30px;
+        width: 50px;
+        border:1px solid gray;
+        border-radius: 5px;
+        text-align: center;
+        font-size:20px;
+    }
+    
+    div{
+        margin-left: 30%;
+        margin-top: 30vh;
+    }
+    
+}
+
